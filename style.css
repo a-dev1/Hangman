@@ -87,3 +87,15 @@ div span {
 p {
     margin: 0px;
 }
+
+.figure-container {
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    height: 250px;
+}
+
+.body-part {
+    display: none;
+}
