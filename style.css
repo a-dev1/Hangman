@@ -69,7 +69,7 @@ div span {
     margin-top: 0;
 }
 
-.playAgain {
+.button {
     padding: 10px 15px;
     font-size: small;
     color: #2980b9;
@@ -102,4 +102,31 @@ p {
 
 .show-body-part {
     display: block;
+}
+
+/* You Won container */
+.won_container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.won {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2980b9;
+    border-radius: 8px;
+    padding: 30px 20px 30px 20px;
+    min-width: 380px;
+    text-align: center;
+}
+
+.won_container .won h2 {
+    margin-top: 0;
 }
